@@ -13,18 +13,8 @@ pnpm dev
 # or
 bun dev
 ```
-You will need to create .env file with following :
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL =
-NEXT_PUBLIC_CLERK_SIGN_UP_URL =    
-ARCJET_KEY=
-# Connect to Supabase via connection pooling with Supavisor.
-DATABASE_URL=
-# Direct connection to the database. Used for migrations.
-DIRECT_URL=
-        
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -32,9 +22,9 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Note 
-You will need to create .env file with following :
-
+## NOTE
+### You will need to create .env file with following :
+```
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 NEXT_PUBLIC_CLERK_SIGN_IN_URL =
@@ -44,3 +34,4 @@ ARCJET_KEY=
 DATABASE_URL=
 # Direct connection to the database. Used for migrations.
 DIRECT_URL=
+```        
